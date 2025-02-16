@@ -1,16 +1,32 @@
-## Hi there 👋
+# Hello, I'm Abd Elghani Hajija 👋
 
-<!--
-**Abdelghani-Hdija/Abdelghani-Hdija** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me:
+I am currently in my first year of the "Technicien Spécialisé en Développement Informatique" diploma program. I am passionate about software development and work on various projects related to web development and system programming. I have received certificates in several programming languages such as *JavaScript, **CSS, **Python*, and other tools that help me build remarkable projects.
 
-Here are some ideas to get you started:
+## Skills:
+- *Programming Languages:*  
+  - JavaScript  
+  - Python  
+  - HTML/CSS  
+  - SQL  
+  - Node.js  
+  - React.js
+- *Tools:*  
+  - Git & GitHub  
+  - VS Code  
+  - Figma  
+  - Docker  
+- *Other Skills:*  
+  - Front-end Development  
+  - Back-end Development  
+  - Database Management
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projects:
+- [*Project 1: Interactive Website*](Project Link)  
+  *Description:* An interactive website built using HTML, CSS, and JavaScript, featuring responsive design and advanced functionality.
+- [*Project 2: Simple Calculator Application with Python*](Project Link)  
+  *Description:* A simple command-line calculator built with Python to perform basic operations.
+
+## Contact Me:
+📧 Email: [abdghani@example.com](mailto:abdghani@example.com)  
+🔗 LinkedIn: [Abd Elghani Hajija](LinkedIn Profile Link)
