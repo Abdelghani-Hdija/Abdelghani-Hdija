@@ -56,10 +56,4 @@
 
 <br/>
 
-<div align="center">
-  <a href='https://ko-fi.com/abdelghanihdija' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-</div>
-
-<br/>
-
 - I am a first-year student in the **Diploma of Specialized Technician in IT Development** and have earned many certificates in programming languages. This code I shared is a model for my CV on GitHub. You can reach out to me through the links provided.
