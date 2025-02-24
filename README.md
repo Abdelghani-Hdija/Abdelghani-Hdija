@@ -14,7 +14,7 @@
  
  🌱 I’m currently learning **Flutter, Dart, PHP and React** 
 
-💬 Ask me about **Python, Flask, HTML, CSS, or anything [here](https://github.com/abdelghani-hdija/abdelghani-hdija/issues)**
+💬 Ask me about **Python, Flask, HTML, CSS, C or anything [here](https://github.com/abdelghani-hdija/abdelghani-hdija/issues)**
 
 ⚡ Fun fact **Python was named after Monty Python, not the snake!**
 
@@ -35,7 +35,7 @@
 <br/>
 <div align="center">
     <img src="https://skillicons.dev/icons?i=python,html,css,flask,vscode,github,git,r" />
-    <img src="https://skillicons.dev/icons?i=javascript,java,flutter,react" /><br>
+    <img src="https://skillicons.dev/icons?i=javascript,C,java,flutter,react" /><br>
 </div>
 
 <br/>
