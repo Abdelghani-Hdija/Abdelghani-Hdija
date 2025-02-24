@@ -1,0 +1,118 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 const canvas = document.getElementById('gameCanvas');\
+const ctx = canvas.getContext('2d');\
+\
+const scale = 20;\
+const rows = canvas.height / scale;\
+const columns = canvas.width / scale;\
+\
+let snake;\
+let fruit;\
+\
+(function setup() \{\
+  snake = new Snake();\
+  fruit = new Fruit();\
+  window.setInterval(game, 1000 / 15); // 15 FPS\
+\}());\
+\
+function game() \{\
+  ctx.clearRect(0, 0, canvas.width, canvas.height);\
+  snake.update();\
+  snake.draw();\
+  fruit.draw();\
+\
+  if (snake.eat(fruit)) \{\
+    fruit = new Fruit();\
+  \}\
+\
+  if (snake.collide()) \{\
+    snake = new Snake();\
+  \}\
+\}\
+\
+function Snake() \{\
+  this.snakeArray = [\{ x: 10, y: 10 \}];\
+  this.length = 1;\
+  this.direction = 'RIGHT';\
+\
+  this.draw = function () \{\
+    this.snakeArray.forEach((segment, index) => \{\
+      ctx.fillStyle = index === 0 ? 'green' : 'white';\
+      ctx.fillRect(segment.x * scale, segment.y * scale, scale, scale);\
+    \});\
+  \};\
+\
+  this.update = function () \{\
+    let head = this.snakeArray[0];\
+    let newHead;\
+\
+    if (this.direction === 'RIGHT') \{\
+      newHead = \{ x: head.x + 1, y: head.y \};\
+    \} else if (this.direction === 'LEFT') \{\
+      newHead = \{ x: head.x - 1, y: head.y \};\
+    \} else if (this.direction === 'UP') \{\
+      newHead = \{ x: head.x, y: head.y - 1 \};\
+    \} else if (this.direction === 'DOWN') \{\
+      newHead = \{ x: head.x, y: head.y + 1 \};\
+    \}\
+\
+    this.snakeArray.unshift(newHead);\
+\
+    if (this.snakeArray.length > this.length) \{\
+      this.snakeArray.pop();\
+    \}\
+  \};\
+\
+  this.eat = function (fruit) \{\
+    const head = this.snakeArray[0];\
+    if (head.x === fruit.x && head.y === fruit.y) \{\
+      this.length++;\
+      return true;\
+    \}\
+    return false;\
+  \};\
+\
+  this.collide = function () \{\
+    const head = this.snakeArray[0];\
+    // Check for wall collision\
+    if (head.x < 0 || head.x >= columns || head.y < 0 || head.y >= rows) \{\
+      return true;\
+    \}\
+    // Check for self-collision\
+    for (let i = 1; i < this.snakeArray.length; i++) \{\
+      if (this.snakeArray[i].x === head.x && this.snakeArray[i].y === head.y) \{\
+        return true;\
+      \}\
+    \}\
+    return false;\
+  \};\
+\
+  document.addEventListener('keydown', (event) => \{\
+    if (event.key === 'ArrowUp' && this.direction !== 'DOWN') \{\
+      this.direction = 'UP';\
+    \} else if (event.key === 'ArrowDown' && this.direction !== 'UP') \{\
+      this.direction = 'DOWN';\
+    \} else if (event.key === 'ArrowLeft' && this.direction !== 'RIGHT') \{\
+      this.direction = 'LEFT';\
+    \} else if (event.key === 'ArrowRight' && this.direction !== 'LEFT') \{\
+      this.direction = 'RIGHT';\
+    \}\
+  \});\
+\}\
+\
+function Fruit() \{\
+  this.x = Math.floor(Math.random() * columns);\
+  this.y = Math.floor(Math.random() * rows);\
+\
+  this.draw = function () \{\
+    ctx.fillStyle = 'red';\
+    ctx.fillRect(this.x * scale, this.y * scale, scale, scale);\
+  \};\
+\}\
+}
