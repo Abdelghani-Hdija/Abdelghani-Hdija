@@ -12,7 +12,7 @@
  
  🔭 I’m currently working on **web development projects with Python & Flask**
  
- 🌱 I’m currently learning **Docker, Flask, AWS, and React**
+ 🌱 I’m currently learning **Flutter, Dart, PHP and React** 
 
 💬 Ask me about **Python, Flask, HTML, CSS, or anything [here](https://github.com/abdelghani-hdija/abdelghani-hdija/issues)**
 
