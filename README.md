@@ -46,7 +46,7 @@
 ### Project 1: Web Application Gaming Accessories
 **Description:** Site e-commerce for everything related to PC gaming.
 
-[![Watch the video](https://img.youtube.com/vi/VIDEO_ID_1/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_1)
+![Project Demo]([https://github.com/user-attachments/assets/e34da5eb-2332-462c-86ec-9affdf449e4d.gif](https://github.com/user-attachments/assets/209f9e7a-6d40-421f-b03c-84728747b8b3))
 
 ---
 
