@@ -46,14 +46,15 @@
 ### Project 1: Web Application Gaming Accessories
 **Description:** Site e-commerce for everything related to PC gaming.
 
-![Project Demo]([https://github.com/user-attachments/assets/e34da5eb-2332-462c-86ec-9affdf449e4d.gif](https://github.com/user-attachments/assets/209f9e7a-6d40-421f-b03c-84728747b8b3))
+https://github.com/user-attachments/assets/209f9e7a-6d40-421f-b03c-84728747b8b3
 
 ---
 
 ### Project 2: Web Application Landing Page
 **Description:** This landing page is specialized for all kinds of protective covers.
 
-[![Watch the video](https://img.youtube.com/vi/VIDEO_ID_2/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_2)
+https://github.com/user-attachments/assets/77213623-3e5d-4527-ac66-2090e6db64b9
+
 <div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br>
