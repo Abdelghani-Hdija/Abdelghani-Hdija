@@ -43,20 +43,17 @@
 
 ## 🚀 My Projects
 
-### Project 1: Web Application Gaming accessories
+### Project 1: Web Application Gaming Accessories
+**Description:** Site e-commerce for everything related to PC gaming.
 
-**Description:** Site e-commerce for everything related Pc gaming.
-
-<iframe width="560" height="315" src="https://github.com/user-attachments/assets/e34da5eb-2332-462c-86ec-9affdf449e4d" title="Web Application Gaming accessories" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID_1/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_1)
 
 ---
 
-### Project 2: Web Application Landing page
+### Project 2: Web Application Landing Page
+**Description:** This landing page is specialized for all kinds of protective covers.
 
-**Description:** This landing page only special all kinds of protective cover.
-
-<iframe width="560" height="315" src="https://github.com/user-attachments/assets/fb6c1e33-4280-4add-a3ba-4e208f64032e" title="Web Application Landing page" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID_2/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_2)
 <div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br>
